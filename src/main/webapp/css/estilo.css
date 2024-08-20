@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-color: #D3D3D3;
+}
+
+form{
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;/* remove os marcadores da lista*/
+    padding: 20px; /*espaço entre as barras da lista */
+    background-color: #4B0082;/* cor fundo da barra naveg.*/
+    text-align: center;
+}
+form ul{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline; /* exibe os itens da lista lada a lado*/
+    margin-right: 15px; /*espaçamento entre os itens*/
+    
+}
+
+nav ul li a{
+   color: white; /*cor do texto do link*/
+   text-decoration: none;/* remove o sublinhado dos links*/
+   font-weight: bold; /*texto dos links em negrito*/
+}
+
+nav ul li a:hover{
+    color:#ccc; /*cor do texto dos links ao passar o mouse*/
+    
+}
+
